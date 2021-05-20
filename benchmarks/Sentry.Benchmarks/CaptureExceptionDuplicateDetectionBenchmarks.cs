@@ -3,6 +3,8 @@ using BenchmarkDotNet.Attributes;
 
 namespace Sentry.Benchmarks
 {
+    [JsonExporterAttribute.Full]
+    [JsonExporterAttribute.FullCompressed]
     public class CaptureExceptionDuplicateDetectionBenchmarks
     {
         private IDisposable _sdk;

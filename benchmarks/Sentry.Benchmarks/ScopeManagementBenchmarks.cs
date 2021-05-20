@@ -4,6 +4,8 @@ using Sentry.Extensibility;
 
 namespace Sentry.Benchmarks
 {
+    [JsonExporterAttribute.Full]
+    [JsonExporterAttribute.FullCompressed]
     public class ScopeManagementBenchmarks
     {
         [IterationSetup]

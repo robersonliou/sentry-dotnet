@@ -5,6 +5,8 @@ using Sentry.Protocol;
 
 namespace Sentry.Benchmarks
 {
+    [JsonExporterAttribute.Full]
+    [JsonExporterAttribute.FullCompressed]
     public class BreadcrumbOverheadBenchmarks
     {
         private const string Message = "Message";

@@ -107,6 +107,7 @@ ProjectSection(SolutionItems) = preProject
 	.github\workflows\danger.yml = .github\workflows\danger.yml
 	.github\workflows\docs.yml = .github\workflows\docs.yml
 	.github\workflows\vulnerabilities.yml = .github\workflows\vulnerabilities.yml
+	.github\workflows\bench.yml = .github\workflows\bench.yml
 EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sentry.AspNetCore.Grpc", "src\Sentry.AspNetCore.Grpc\Sentry.AspNetCore.Grpc.csproj", "{720811C8-29C7-4368-86F2-D61DF415AC2A}"

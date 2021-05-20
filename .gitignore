@@ -22,5 +22,5 @@ docs/_site/*
 docs/docfx/*
 docs/docfx.zip
 /samples/Sentry.Samples.Aws.Lambda.AspNetCoreServer/Properties/launchSettings.json
-
 *.received.*
+#BenchmarkDotNet.Artifacts/*

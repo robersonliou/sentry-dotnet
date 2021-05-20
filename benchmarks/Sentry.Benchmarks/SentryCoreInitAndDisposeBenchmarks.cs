@@ -4,6 +4,8 @@ using BenchmarkDotNet.Attributes;
 namespace Sentry.Benchmarks
 {
     // Only really affects application startup time
+    [JsonExporterAttribute.Full]
+    [JsonExporterAttribute.FullCompressed]
     public class SentrySdkInitAndDisposeBenchmarks
     {
         [GlobalSetup(Target = nameof(Init_Dispose_DsnEnvVar))]

@@ -8,6 +8,8 @@ using Sentry.Protocol.Envelopes;
 
 namespace Sentry.Benchmarks
 {
+    [JsonExporterAttribute.Full]
+    [JsonExporterAttribute.FullCompressed]
     public class BackgroundWorkerFlushBenchmarks
     {
         private class FakeTransport : ITransport
